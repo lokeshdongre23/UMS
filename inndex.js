@@ -23,6 +23,7 @@ const user3 = new User("Shashank", 9387654367, "Vijay Nagar, Indore");
 
 // user1.addRole(Admin);
 // console.log(user1);
+const user4 = new User("Ramesh", 8877665544, "Palasia, Indore");
 
 user2.addRole(Admin);
 
