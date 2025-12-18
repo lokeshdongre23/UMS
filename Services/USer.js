@@ -24,7 +24,16 @@ class User {
     for (const i of this.roles) {
       //   console.log(i, this.name);
       for (const j of i.permission) {
-        console.log(j);
+        // console.log(j);
+        if (j.includes("edit")) {
+          console.log("Has Permission to edit");
+        }
+        if (j.includes("delete")) {
+          console.log("Has Permission to delete");
+        }
+        if (j.includes("add")) {
+          console.log("Has Permission to Add");
+        }
       }
     }
   }
