@@ -19,7 +19,7 @@ View.addPermissions(Delete.pname);
 // Users
 const user1 = new User("YAdaav Ji", 8817057601, "NRK Bussiness park, Indore");
 const user2 = new User("Lokesh", 78327894272, "Reddiosion blue, Indore");
-const user3 = new User("Editor", 9387654367, "Vijay Nagar, Indore");
+const user3 = new User("Shashank", 9387654367, "Vijay Nagar, Indore");
 
 // user1.addRole(Admin);
 // console.log(user1);
