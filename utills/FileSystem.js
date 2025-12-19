@@ -1,6 +1,4 @@
 import fs from "fs";
-// import { console } from "inspector";
-
 export function loadFromFile() {
   try {
     const data = JSON.parse(fs.readFileSync("./utills/Users.json", "utf-8"));
@@ -15,7 +13,7 @@ export function saveFile(user) {
     data.push(user);
     console.log(data);
     fs.writeFileSync("./utills/Users.json", JSON.stringify(data), "utf-8");
-    console.log("Added");
+    // console.log("Added");
   } catch (error) {
     console.error(error);
   }

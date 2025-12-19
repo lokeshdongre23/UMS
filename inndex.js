@@ -1,8 +1,9 @@
 import User from "./Services/USer.js";
 import { Permission } from "./Services/Permission.js";
 import Role from "./Services/Role.js";
-import { saveFile } from "./utills/FileSystem.js";
+import { loadFromFile, saveFile } from "./utills/FileSystem.js";
 import readline from "readline";
+import { userInfo } from "os";
 
 // Permisssions
 const Edit = new Permission("edit");
@@ -31,7 +32,8 @@ user2.addRole(Admin);
 
 user1.addRole(View);
 
-saveFile(user1);
+// saveFile(user1);
+// saveFile(user2);
 
 // console.log(user2);
 // console.log(user2.roles[0]);
@@ -74,3 +76,23 @@ saveFile(user1);
 // }
 
 // menu();
+
+// import User from "./Services/USer.js";
+// import { Permission } from "./Services/Permission.js";
+// import Role from "./Services/Role.js";
+// import { saveFile } from "./utills/FileSystem.js";
+// import readline from "readline";
+
+// // ====== Permissions ======
+// const Edit = new Permission("edit");
+// const Delete = new Permission("delete");
+// const Add = new Permission("add");
+
+// // ====== Roles ======
+// const Admin = new Role();
+// Admin.addPermissions(Edit.pname);
+// Admin.addPermissions(Delete.pname);
+// Admin.addPermissions(Add.pname);
+
+// const Viewer = new Role();
+// Viewer.addPermissions(Add.pname);

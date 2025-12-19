@@ -1,8 +1,21 @@
 [
-  {
-    "name": "YAdaav Ji",
-    "cNO": 8817057601,
-    "Adrs": "NRK Bussiness park, Indore",
-    "roles": [{ "permission": ["add", "delete"] }]
-  }
+  [
+    [
+      {
+        "name": "lokesh",
+        "cNO": "0987654321",
+        "Adrs": "asdfghjkl",
+        "roles": []
+      }
+    ],
+    [
+      {
+        "name": "lokesh",
+        "cNO": "0987654321",
+        "Adrs": "asdfghjkl",
+        "roles": [{ "permission": ["edit", "delete", "add"] }]
+      }
+    ],
+    { "name": "lokesh", "cNO": "0987654321", "Adrs": "lkjhgfds", "roles": [] }
+  ]
 ]
