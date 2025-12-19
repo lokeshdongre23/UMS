@@ -1,0 +1,8 @@
+[
+  {
+    "name": "YAdaav Ji",
+    "cNO": 8817057601,
+    "Adrs": "NRK Bussiness park, Indore",
+    "roles": [{ "permission": ["add", "delete"] }]
+  }
+]
